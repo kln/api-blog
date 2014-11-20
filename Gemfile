@@ -13,7 +13,7 @@ gem 'thin'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
-
+gem 'heroku'
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.0'
