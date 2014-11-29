@@ -8,7 +8,8 @@ class ApplicationController < ActionController::Base
   		title: post.title,
   		author: post.author,
   		link: post.link,
-  		description: post.description
+  		description: post.description,
+      created_at: post.created_at.strftime("%d/%m/%Y")
   	}	    
 	end
 
