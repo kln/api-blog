@@ -1,8 +1,8 @@
 module API
   class PostsController < ApplicationController
     def index
-      posts = Post.order(created_at: :desc).all
-      render json: { posts: posts.map { |p| post_hash(p) } }
+      posts = Post.select("title, to_char(created_at,'DD/MM/YYYY') as created_at, id").order(created_at: :desc)
+      render json: { posts: posts }
     end
 
     def show
