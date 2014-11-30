@@ -5,6 +5,7 @@ class ApplicationController < ActionController::Base
 
 	def post_hash(post)
   	{
+      id: post.id,
   		title: post.title,
   		author: post.author,
   		link: post.link,
