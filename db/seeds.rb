@@ -8,7 +8,7 @@ Post.create(title: 'Trabalhando com SOAP em aplicações Ruby on Rails',
 						author: 'Kelvin Morais',
 						link: 'http://internerd.blog.br/rails/soap/ruby/2014/09/27/ruby-rails-soap.html',
 						created_at: '2014-09-27',
-						description: 'Como trabalhar com SOAP em aplicações Ruby on Rails')
+						description: 'SOAP é um protocolo para troca de informações em aplicações distribuídas. Neste post, vamos ver como trabalhar com SOAP em aplicações Ruby on Rails.')
 
 Post.create(title: 'Criando um ambiente de desenvolvimento com Vagrant e Docker', 
 						author: 'Kelvin Morais',
