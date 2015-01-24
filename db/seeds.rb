@@ -15,3 +15,9 @@ Post.create(title: 'Criando um ambiente de desenvolvimento com Vagrant e Docker'
 						link: 'http://internerd.blog.br/vagrant/docker/linux/2014/09/05/ambiente-dev-vagrant-docker.html',
 						created_at: '2014-09-05',
 						description: 'Como criar seu ambiente de desenvolvimento com vagrant e docker de forma simples e rápida')
+
+Post.create(title: 'Git, dicas para o dia a dia',
+						author: 'Kelvin Morais',
+						link: 'http://internerd.blog.br/dicas-git/',
+						created_at: '2015-01-23',
+						description: 'Nesse post vamos ver algumas dicas para facilitar nosso trabalho com o git em nosso dia a dia')
